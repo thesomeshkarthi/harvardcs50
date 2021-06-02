@@ -1,0 +1,103 @@
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+}
+
+.emphasis {
+    color: #202C77;
+    font-weight: bold;
+}
+
+
+.description {
+    padding: 40px;
+}
+
+.descriptionContainer {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a {
+    color: #0066ff;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #202C77;
+}
+
+.button {
+    display:inline-block;
+    border: 1px solid blue;
+    padding: 10px 24px;
+    background-color: #202C77;
+    color: white;
+}
+
+.button:hover {
+    background-color: #5d6a80;
+}
+
+
+.center {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.titles {
+font-family: Rubik;
+font-size: 35px;
+color: #E9B628;
+line-height: 0px;
+ }
+
+.subtitles {
+font-family: Rubik;
+font-size: 13px;
+color: black;
+line-height: 0px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.typing h2 {
+  overflow: hidden;
+  font-family: Rubik;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 1px }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  25% { border-color: orange; }
+}
+
+.buttons {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
